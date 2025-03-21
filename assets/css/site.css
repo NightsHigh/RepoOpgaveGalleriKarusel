@@ -4,4 +4,39 @@ font-family: "Oswald", sans-serif; */
 * {
   margin: 0px;
   padding: 0px;
+
+}
+.AlignCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#GalleriContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img-container{
+  max-width: 500px;
+  max-height: 500px;
+}
+img {
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover; 
+  border: 2px solid #ccc; 
+  border-radius: 8px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  margin: 0 10px;
+}
+.gallery-button:hover {
+  background-color: #0056b3;
 }
